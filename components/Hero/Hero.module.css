@@ -1,0 +1,71 @@
+/*
+ * Copyright (c) 2020. Mikael Lazarev
+ */
+
+.hero_background {
+    background-image: url("/banner/the-business-team-brainstorming.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 90vh;
+    /*max-height: 95vh;*/
+    /*padding-top: 50%;*/
+    /*padding-bottom: 50px;*/
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px){
+    .hero_background {
+        height: 60vh;
+        background-position-x: left;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .hero_background {
+        background-position-x: center;
+    }
+}
+
+.hero_inside {
+    /*margin-top: -45%;*/
+    width: 100%;
+    padding: 0!important;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+
+}
+
+.hero_background_short {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-top: 25%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+.hero_inside_short {
+    margin-top: -17%;
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}

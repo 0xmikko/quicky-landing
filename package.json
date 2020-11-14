@@ -8,8 +8,43 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cookie": "^0.4.1",
+    "globby": "^11.0.1",
+    "querystring": "^0.2.0",
+    "rc-analytics": "^0.0.9",
+    "react-avatar": "^3.9.7",
+    "react-bootstrap": "^1.2.2",
+    "react-cookie-consent": "^5.1.4",
+    "react-markdown": "^4.3.1",
+    "react-share": "^4.2.1",
+    "redux-data-connect": "^1.1.5",
+    "sass": "^1.26.10",
+    "ts-node": "^9.0.0",
+    "uuid": "^8.3.0",
+    "yup": "^0.29.1",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cookie": "^0.4.0",
+    "@types/globby": "^9.1.0",
+    "@types/prettier": "^2.1.2",
+    "@types/react-bootstrap": "^1.0.1",
+    "@types/sass": "^1.16.0",
+    "@types/uuid": "^8.3.0",
+    "@types/yup": "^0.29.3",
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
+    "typescript": "^4.0.5",
+    "prettier": "^2.0.5"
   }
 }

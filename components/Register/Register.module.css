@@ -1,0 +1,40 @@
+/*
+ * Copyright (c) 2020. Mikael Lazarev
+ */
+
+.register_background {
+    /*background-image: url("/banner.jpg");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin: 0;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_btn {
+    height: 48px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    background-color: #0071f0;
+}
+
+.register_btn:hover {
+    height: 48px;
+    margin-bottom: 24px;
+    background-color: white;
+    color: #0071f0;
+}
