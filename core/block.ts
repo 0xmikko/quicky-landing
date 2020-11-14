@@ -2,14 +2,10 @@
  * Copyright (c) 2020. Mikael Lazarev
  */
 
-import { Hero } from "./hero";
-import { Feature } from "./feature";
-import { NumberBlock } from "./numberBlock";
-import { UseCase, UseCaseListBlock } from "./useCase";
-import { GalleryBlock } from "./gallery";
-import { RegisterBlock } from "./register";
-import { MarkdownBlock } from "./markdown";
-import { DriveBlock } from "./drive";
+import {Hero} from "./hero";
+import {Feature} from "./feature";
+import {RegisterBlock} from "./register";
+import {MarkdownBlock} from "./markdown";
 
 export interface BlockModel {
   id: string;
@@ -27,28 +23,8 @@ export type Block =
     }
   | {
       id: string;
-      type: "HeroProduct";
-      content: Hero;
-    }
-  | {
-      id: string;
       type: "Feature";
       content: Feature;
-    }
-  | {
-      id: string;
-      type: "NumberBlock";
-      content: NumberBlock;
-    }
-  | {
-      id: string;
-      type: "UseCaseList";
-      content: UseCaseListBlock;
-    }
-  | {
-      id: string;
-      type: "Gallery";
-      content: GalleryBlock;
     }
   | {
       id: string;
@@ -60,8 +36,3 @@ export type Block =
       type: "Markdown";
       content: MarkdownBlock;
     }
-  | {
-      id: string;
-      type: "Drive";
-      content: DriveBlock;
-    };
